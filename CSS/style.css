@@ -1,0 +1,72 @@
+body{
+    background-color: #FFA47F;
+}
+
+#btn{
+    padding: 10px 20px;
+    background-color: #8100D1;
+    color: #FFA47F;
+    font-size: 25px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn-array{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btn:hover{
+    box-shadow: 0px 0px 5px 2px #B500B2;
+}
+
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
+    justify-content: center;
+    align-items: center;
+}
+
+.popup{
+    background-color: #FF52A0;
+    height: fit-content;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+
+}
+
+#inputform{
+    margin: 10px 25px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.popform{
+    position: relative;
+}
+
+#closeimg{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+#form{
+    margin-top: 35px;
+}
+
+#popbtn{
+    padding: 5px 20px;
+    background-color: #8100D1;
+    color: #FFA47F;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

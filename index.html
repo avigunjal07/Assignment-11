@@ -10,14 +10,14 @@
     <h1 style="color:#8100D1;text-align: center; font-size: 50px;">Welcome to My portfolio</h1>
 
 <div class="btn-array">
-    <button id="btn">Login / Sign-up</button>
+    <button id="btn" onclick="opanmodal()">Login / Sign-up</button>
 </div>
 
-<div class="overlay">
+<div class="overlay" id="overlay">
     <div class="popup">
         <img src="./images/login.jpg" alt="" height="250px">
         <div class="popform">
-            <img src="./images/close.png" height="15px" id="closeimg">
+            <img src="./images/close.png" height="15px" id="closeimg" onclick="closemodal()">
             <form id="form">
             <input type="text" placeholder="Enter UserID" id="inputform"><br>
             <input type="password" placeholder="Enter password" id="inputform">
@@ -26,5 +26,6 @@
         </div>
     </div>
 </div>
+<script src="./JS/script.js"></script>
 </body>
 </html>
